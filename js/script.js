@@ -13,9 +13,6 @@ function onBtnClick() {
   createGrid(gridContainer);
 }
 
-// AZZERO LA VARIABILE CHE CONTEGGIA IL PUNTEGGIO
-let clickedCells = 0;
-
 // DICHIARAZIONE FUNCTION createGrid
 function createGrid(gridContainer) {
   // SETTO UNA VARIABILE CHE DA L'OK ALLA GIOCABILITA' E  BLOCCA IL GIOCO IN CASO DI CLICK SU BOMB - 
