@@ -20,9 +20,19 @@
 
 <body>
   <main class="container m-5">
-    <button class="invia-dati btn btn-warning my-2">GENERA GRIGLIA</button>
+    <div>
+      <select class="form-select" aria-label="Default select example" id="difficult-level">
+        <option value="49">Facile</option>
+        <option value="81">Medio</option>
+        <option value="100">Difficile</option>
+      </select>
+    </div>
+    <div>
+      <button class="invia-dati btn btn-warning my-2">GENERA GRIGLIA</button>
+    </div>
+    <div class="d-flex justify-content-center p-3 gap-3">
+    </div>
     <div class="grid-container">
-
     </div>
   </main>
   <script src="js/script.js"></script>
