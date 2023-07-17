@@ -28,7 +28,7 @@ function createGrid(gridContainer, difficult) {
     box.classList.add("square");
     box.innerHTML = i;
 
-    //RICHIAMO LA FUNZIONE CHE CALCOLA IL FATTORE DI DIVISIONE DEL FLEXBASIS PER IN BASE ALLA QUANTITA' DI BOX PRESENTI (49,81,100)
+    //RICHIAMO LA FUNZIONE CHE CALCOLA IL FATTORE DI DIVISIONE DEL FLEXBASIS IN BASE ALLA QUANTITA' DI BOX PRESENTI (49,81,100)
     let myDivFact = divFactorCalc(difficult);
     box.style.flexBasis = `calc(100% / ${myDivFact})`;
 
